@@ -1,0 +1,70 @@
+.header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #a8a7fa;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+}
+
+.header__searchInput {
+  height: 10px;
+  padding: 9px;
+  border: none;
+  width: 65%;
+  margin-left: 100px;
+}
+
+.header__searchIcon {
+  padding: 5px;
+  height: 24px ;
+  background-color: #ffc880;
+}
+
+.header__optionLineOne {
+  font-size: 13px;
+}
+
+.header__optionLineTwo {
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.header__optionBasket {
+  display: flex;
+  align-items: center;
+  color: rgb(245, 215, 119);
+}
+
+.header__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(255, 237, 182);
+}
